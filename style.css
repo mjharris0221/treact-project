@@ -1,0 +1,120 @@
+/*style*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+padding: 20px;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+height: 80px;
+  display: flex;
+}
+.nav__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 8vh;
+  background-color: white;
+  color: rgb(36, 62, 99);
+  margin: 0 auto;
+}
+.purple{
+    color:#7342d6;
+    font-weight: bold;
+}
+.logo{
+    width:160px
+}
+ul{
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+}
+li{ 
+list-style: none;
+margin-right: 20px;
+cursor:pointer;
+}
+.nav__links{
+   margin-left: 16px;
+  text-decoration: none;
+  color:rgb(36, 62, 99);;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px; 
+}
+.nav__links:hover{
+text-decoration: underline;
+outline-color:#7342d6;
+}
+
+button{
+    cursor: pointer;
+}
+button:active{
+    transform: translateY(1px);
+}
+.btn{
+    background-color: #7342d6;
+    color: white;
+    border: none;
+    padding: 8px 36px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;    
+}
+
+/*LANDING*/
+#landing
+.header__container{
+    padding: 8vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    color: black;
+    flex-direction: column;
+    margin: 0 auto;
+} 
+.header__description{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: Left;
+
+}
+
+h1{
+    font-size: 32px;
+    color: #020007;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: left;
+}
+h2{
+    font-size: 16px;
+    color: #243e63;
+    font-weight: bold; 
+}
+
+.header__imag--wrapper{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap ;  
+
+}
