@@ -132,6 +132,7 @@ h3{
 }
 .container{
     padding: 80px 0px;
+
 }
 .row{
     width:100%;
@@ -145,24 +146,27 @@ h3{
 }
 .services{
 display: flex;
-flex-wrap: wrap;    
+flex-wrap: wrap;
+max-width:calc(100%/3);
+
 }
+.services__row{
+
+
+ 
+
+}    
+
 .highlight__wrapper{
     display: flex;
     flex-wrap: wrap;
  }
  .highlight{
     padding: 0 4px;
-    width: calc(100%/3);
     display: flex;
     flex-direction:center; 
     align-items: left;
-    justify-content: left;
-    flex-wrap:
-}
-.highlight__para{
-    text-align: center;
-    max-width: 280px;
+    justify-content:center;
 }
 #highlights {
     position: relative;
@@ -171,11 +175,10 @@ flex-wrap: wrap;
 .highlight__para{
     text-align: center;
     font-size: 16px;
-    max-width: 280px;
+    max-width: 1200px;
     color: #a8a7aa;
 }
 
-}
 #highlights:before{
     background: url(assets/wave.svg);
     content: "";
@@ -204,15 +207,15 @@ flex-wrap: wrap;
 }
 
 .highlight__img{
-    border: 2px solid #a8a7aa;
+    border: 1px solid #a8a7aa;
     color: #7342d6;        
-    width: 100px;
-    height: 100px;
+    width: 20px;
+    height: 20px;
     display: flex;
-    margin-bottom: 24px;
+    margin-bottom: 2px;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 500px;
     font-size: 32px;
 }
 .highlight__subtitle{
@@ -220,6 +223,8 @@ flex-wrap: wrap;
     color: #04000a;
     margin-bottom: 12px;
     text-align: Left;
+    max-width: calc(100%/3);
+    max-height: 400px
 }
 .section__title{
     font-size: 16px;
