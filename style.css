@@ -109,12 +109,21 @@ h1{
 h2{
     font-size: 16px;
     color: #243e63;
-    font-weight: bold; 
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
 }
 h3{
     font-size: 16px;
     color:#7342d6;
     font-weight: bold;
+}
+.header__email{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 24px;
+    border-radius: 20px;
 }
 
 .header__imag--wrapper{
@@ -131,6 +140,12 @@ h3{
     color: rgb(100,21,255);
     margin-bottom: 24px;
     text-align: right;
+}
+.section__paragraph{
+    font-size: 16px;
+    color: #a8a7aa;
+    margin-bottom: 24px;
+    text-align: center;
 }
 .container{
     padding: 80px 0px;
@@ -282,6 +297,12 @@ max-width:calc(100%/3);
     font-size: 16px;
     color: #020005;
     margin-bottom: 24px;
-    text-align: center;
+    text-align: Center;
+}
+.section__tag{
+    font-size: 14px;
+    color: #7342d6;
+    margin-bottom: 8px;
+    text-align: left;
 }
 
