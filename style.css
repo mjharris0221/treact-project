@@ -338,9 +338,17 @@ h3{
 }
 .step__description{
     display:flex;
+    font-size: 20px;
     flex-direction: column;
     margin-left: 24px;
     max-width: 320px;
+    color: #243e63;
+}
+.step__title{
+    font-size: 20px;
+    color: #243e63;
+    font-weight: 600;
+    line-height: 1;
 }
 .step__para{
     font-size: 16px;
@@ -348,6 +356,32 @@ h3{
     font-weight: 500;
     line-height: 2;
     margin-top: 12px;
+}
+.steps__grid{
+    position:absolute;
+    bottom: -100px;
+    left:50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height:30px;
+    Opacity: 0.8;
+    z-index:-2;
+    color: #7342d6;
+}
+/* VALUES*/
+#values.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.value__title{
+    font-size: 20px;
+    color: #243e63;
+    font-weight: 700;
+    line-height: 1;
 }
 
 
